@@ -1,4 +1,4 @@
-# WeChat MsgDB Decrypt Script
+# WeChat MsgDB Decrypt Script (Android)
 
 ## Decrypt algorithm
 

@@ -78,6 +78,8 @@ def decrypt(key: str, db_path, out_path):
         conn = sqlite3.connect(out_path)
         c = conn.cursor()
         c.execute("SELECT name FROM sqlite_master WHERE type='table';")
+        c.close()
+        conn.close()
     except Exception as e:
         print("Error: ",e)
         return False
